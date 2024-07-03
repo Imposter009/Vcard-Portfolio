@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumit's vCard Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Sumit Gupta" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sumit Gupta">Sumit Gupta</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sumitgupta19900@gmail.com" class="contact-link">sumitgupta19900@gmail.com</a>
+            </div>
+            <!-- mailto attribute is used here to send a mail to this email id -->
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917905342319" class="contact-link">+91 7905342319</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Lucknow, Uttar Pradesh, India</address>
+            </div>
+
+          </li>
+          <li class="contact-item">
+          
+              <div class="icon-box">
+                <ion-icon name="download-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <a href="./assets/sumitresume.pdf" class="contact-link" download>Download CV</a>
+              </div>
+          </li>
+          </a>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Imposter009" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="http://www.linkedin.com/in/sumit-gupta-edu009" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm an aspiring Full Stack Web-Developer with a strong passion for web development. I am focused on gaining
+            proficiency in both front-end and back-end technologies. Committed to delivering quality work, solving and
+            creating user-friendly web applications.
+
+
+          </p>
+
+          <p>
+            I enjoy presenting complicated challenges and creating designs that are attractive and intuitive. My job is
+            to design a practical and user-friendly website that is also visually appealing.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Skills</h3>
+          <h3 class="h4 service-title">Languages</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/c.svg
+              " alt="c icon" width="50">
+              </div>
+
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/c++.svg
+              " alt="c icon" width="50">
+              </div>
+
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/java.svg
+              " alt="java icon" width="35">
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/python.svg
+              " alt="python icon" width="50">
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/javascript.svg
+                " alt="javascript icon" width="50">
+              </div>
+            </li>
+          </ul>
+
+          <h4 class="h4 service-title">Frameworks</h4>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/react-com.svg
+                " alt="react icon" width="50">
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/node-js.svg
+                " alt="node-js icon" width="60">
+              </div>
+            </li>
+
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/express.svg
+                " alt="express icon" width="40">
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/tailwind-css.svg
+                " alt="tailwind-css icon" width="50">
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/redux.svg
+                " alt="redux icon" width="50">
+              </div>
+            </li>
+
+          </ul>
+
+          <h4 class="h4 service-title">Database</h4>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/mongodb.svg
+                " alt="mongodb icon" width="60">
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/MySQL.svg
+                " alt="mongodb icon" width="60">
+              </div>
+            </li>
+          </ul>
+          <h4 class="h4 service-title">Tools</h4>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/github.svg
+                " alt="mongodb icon" width="60">
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/VS.svg
+                " alt="mongodb icon" width="60">
+              </div>
+            </li>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/jupyter.svg
+                " alt="mongodb icon" width="60">
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BTech CSE @ Amity University Lucknow</h4>
+
+              <span>2020 — 2024</span>
+              <span>CGPA: 8.45</span>
+
+              <p class="timeline-text">
+                Completed my Bachelor of Technology in Computer Science and Engineering from Amity University, Lucknow,
+                India.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Class 12th @ City Montessori School</h4>
+
+              <span>2018 — 2019</span>
+              <span>Percentage: 91.25%</span>
+
+              <p class="timeline-text">
+                Went to City Montessori School, Lucknow in Class 12 for better opportunities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Class 10th @ City Montessori School</h4>
+
+              <span>2016 — 2017</span>
+              <span>Percentage: 89.50%</span>
+
+              <p class="timeline-text">
+                Did my schooling from City Montessori School, Lucknow, India.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Development Intern @ Esyatech Solutions Pvt. Lt </h4>
+
+              <span>05/2023-06/2023</span>
+
+              <p class="timeline-text">
+                Worked with the team of professionals on a react based project(Zixana ERP).
+                Created the landing page for it using React
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://nandini-mern.vercel.app/login" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+              </a>
+              <h3 class="project-title">MERN-ecommerce </h3>
+              <p class="project-category">ReactJs| TailwindCSS| Redux| NodeJs| MongoDB| Express| Multer| Stripe</p>
+              <a class="project-category" href="https://github.com/Imposter009/e-commerce" target="_blank"><ion-icon
+                  name="logo-github"></ion-icon></a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="certifications" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="certifications-posts">
+
+          <ul class="certifications-posts-list">
+
+            <li class="certifications-post-item">
+              <a href="#">
+
+                <figure class="certifications-banner-box">
+                  <img src="./assets/images/certifications-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="certifications-content">
+
+                  <div class="certifications-meta">
+                    <p class="certifications-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certifications-item-title">Design conferences in 2022</h3>
+
+                  <p class="certifications-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certifications-post-item">
+              <a href="#">
+
+                <figure class="certifications-banner-box">
+                  <img src="./assets/images/certifications-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="certifications-content">
+
+                  <div class="certifications-meta">
+                    <p class="certifications-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certifications-item-title">Best fonts every designer</h3>
+
+                  <p class="certifications-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certifications-post-item">
+              <a href="#">
+
+                <figure class="certifications-banner-box">
+                  <img src="./assets/images/certifications-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="certifications-content">
+
+                  <div class="certifications-meta">
+                    <p class="certifications-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certifications-item-title">Design digest #80</h3>
+
+                  <p class="certifications-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certifications-post-item">
+              <a href="#">
+
+                <figure class="certifications-banner-box">
+                  <img src="./assets/images/certifications-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="certifications-content">
+
+                  <div class="certifications-meta">
+                    <p class="certifications-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certifications-item-title">UI interactions of the week</h3>
+
+                  <p class="certifications-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certifications-post-item">
+              <a href="#">
+
+                <figure class="certifications-banner-box">
+                  <img src="./assets/images/certifications-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="certifications-content">
+
+                  <div class="certifications-meta">
+                    <p class="certifications-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certifications-item-title">The forgotten art of spacing</h3>
+
+                  <p class="certifications-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="certifications-post-item">
+              <a href="#">
+
+                <figure class="certifications-banner-box">
+                  <img src="./assets/images/certifications-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="certifications-content">
+
+                  <div class="certifications-meta">
+                    <p class="certifications-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 certifications-item-title">Design digest #79</h3>
+
+                  <p class="certifications-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
